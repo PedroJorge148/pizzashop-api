@@ -1,0 +1,9 @@
+POST http://localhost:3333/restaurants
+Content-Type: application/json
+
+{
+  "restaurantName": "Rocket Pizza", 
+  "name": "Pedro Jorge", 
+  "email": "pedrojorge@gmail.com", 
+  "phone": "12312312"
+}

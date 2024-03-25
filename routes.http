@@ -7,3 +7,21 @@ Content-Type: application/json
   "email": "pedrojorge@gmail.com", 
   "phone": "12312312"
 }
+
+###
+
+POST http://localhost:3333/authenticate
+Content-Type: application/json
+
+{
+  "email": "admin@admin.com" 
+}
+
+###
+
+GET http://localhost:3333/auth-links/authenticate
+  ?code=kbk46ka2waua2mow6qgl4txo
+
+###
+
+POST http://localhost:3333/sign-out

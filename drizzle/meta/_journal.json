@@ -15,6 +15,34 @@
       "when": 1709767608127,
       "tag": "0001_thick_lilith",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1709849958621,
+      "tag": "0002_faulty_frightful_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1711374576378,
+      "tag": "0003_smooth_gideon",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1711375888836,
+      "tag": "0004_slimy_clint_barton",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1711380057314,
+      "tag": "0005_tired_the_fallen",
+      "breakpoints": true
     }
   ]
 }

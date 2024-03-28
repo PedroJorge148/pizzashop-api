@@ -9,8 +9,12 @@ import { getOrderDetails } from './routes/get-orders-details'
 import { getProfile } from './routes/get-profile'
 import { signOut } from './routes/sign-out'
 import { approveOrder } from './routes/approve-order'
+import { cancelOrder } from './routes/cancel-order'
+import { dispatchOrder } from './routes/dispatch-order'
+import { deliverOrder } from './routes/deliver-order'
 
 const app = new Elysia()
+  .get('/test', () => 'ok')
   .use(registerRestaurant)
   .use(sendAuthLink)
   .use(authenticateFromLink)
@@ -18,7 +22,7 @@ const app = new Elysia()
   .use(getProfile)
   .use(getManagedRestaurant)
   .use(getOrderDetails)
-  .use(approveOrder)
+
   .onError(({ code, error, set }) => {
     switch (code) {
       case 'VALIDATION': {
